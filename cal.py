@@ -1,25 +1,4 @@
-# Created by Ninja Hydra
-
-import termcolor
-from termcolor import colored 
-print (colored("  _   _ ___ _   _     _   _ ", "red"))
-print (colored(" | \ | |_ _| \ | |   | | / \ ", "red"))
-print (colored(" |  \| || ||  \| |_  | |/ _ \ ", "red"))
-print (colored(" | |\  || || |\  | |_| / ___ \ ", "red"))
-print (colored(" |_| \_|___|_| \_|\___/_/   \_\ ", "red"))
-print()
-print (colored("choose operator", "blue"))
-print (colored("  'add' for addition", "green"))
-print (colored("  'sub' for subtraction", "green"))
-print (colored("  'dev' for devision", "green"))
-print (colored("  'mul' for multiplication", "green"))
-print (colored("  'sqr' for squaring ", "green"))
-print (colored("  'sqrt' for square root", "green"))
-print (colored("  'sin' for SinØ ", "green"))
-print (colored("  'cos' for CosØ ", "green"))
-print (colored("  'ln' for ln(x) ", "green"))
-print (colored("  'tan' for TanØ ", "green"))
-print (colored("  'log' for simple log(x) ", "green"))
+#created by MRGREEN
 op = input(">>> ")
 if op == "add":
    num1 = float(input("Enter first number : "))
